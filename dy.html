@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box ul{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap; 
+            align-items: center;
+        }
+        li{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap; 
+            align-items: center;
+            list-style: none;
+            border: 1px solid #000;
+            width: 400px;
+            height: 150px;
+            background-color: pink;
+        }
+        .box{
+            display: flex;
+            margin: 50px auto;
+            width: 1200px;
+            height: 418px;
+            background-color: white;
+            border: 2px solid #000;
+            border-radius: 10px;
+            
+        }
+        .box .pic{
+            margin-right: 15px;
+        }
+        .box.text h4{
+           font-size: 20px;
+           font-weight: 400;
+           line-height: 40px;
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <div class="pic">
+                    <img src="../../vs code/1.jpg" alt="" width="60px" height="60px">
+                </div>
+                <div class="text">
+                    <h4>大一学生武汉科技大学计算机学院最帅陈昱桦</h4>
+                </div>
+                <div>
+                    我是真的帅
+                </div>
+            </li>
+            <li>222</li>
+            <li>333</li>
+            <li>444</li>
+        </ul>
+    </div>
+</body>
+</html>
